@@ -73,3 +73,12 @@ button:hover {
     margin-bottom: 4rem;
     position: relative;
 }
+
+.resultado-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}

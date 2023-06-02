@@ -25,5 +25,7 @@ function calcularDias() {
     // formula para transformar de milisegundos para dias
 
     // resultados
-    alert("Dias faltantes para o aniversário: " + diasAteAniversario + "\nDias faltantes para as férias: " + diasAteFerias);
+    const resultadoElement = document.getElementById('resultado');
+    resultadoElement.innerHTML = `Dias até Aniversário: ${diasAteAniversario}<br>Dias até Férias: ${diasAteFerias}`;
+    
 }
