@@ -26,6 +26,7 @@ function calcularDias() {
 
     // resultados
     const resultadoElement = document.getElementById('resultado');
+    // mostra no paragrafo do html
     resultadoElement.innerHTML = `Dias até Aniversário: ${diasAteAniversario}<br>Dias até Férias: ${diasAteFerias}`;
     
 }
